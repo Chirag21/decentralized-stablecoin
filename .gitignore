@@ -3,8 +3,10 @@ cache/
 out/
 
 # Ignores development broadcast logs
+broadcast/*
 !/broadcast
 /broadcast/*/31337/
+/broadcast/*/80001/
 /broadcast/**/dry-run/
 
 # Docs
@@ -12,3 +14,16 @@ docs/
 
 # Dotenv file
 .env
+
+.gas-snapshot
+.vscode/
+.encryptedKey
+
+node_modules
+package-lock.json
+
+.DS_Store
+src/.DS_Store
+
+
+pnpm-lock.yaml
