@@ -27,3 +27,5 @@ src/.DS_Store
 
 
 pnpm-lock.yaml
+
+.vscode
